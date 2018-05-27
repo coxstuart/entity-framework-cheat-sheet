@@ -35,3 +35,17 @@ To load derived classes referenced in the intial entity.
 ```csharp
 var movies = _context.Movies.Include(m => m.Genre);
 ```
+
+# Restart Migrations
+To reset from beginning (new database), perform the following steps:
+1. Save data population migration scripts or other manual scripts
+2. Delete the Migrations folder
+3. Rebuild Solution
+4. Clean Solution
+5. Run the following command from the Package Manager console
+```bash
+Enable-Migrations
+Add-Migration Initial
+Update-Database
+```
+6. Restore and run population migrations
