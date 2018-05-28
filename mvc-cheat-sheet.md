@@ -26,7 +26,7 @@
             @Html.CheckBoxFor(m => m.Customer.IsSubscribedToNewsletter) <text>@Html.LabelFor(m => m.Customer.IsSubscribedToNewsletter)</text>
         </label>
     </div>
-	/* Button classes of btn bun-primary for bootstrap styling of default button */
+    /* Button classes of btn bun-primary for bootstrap styling of default button */
     <button type="submit" class="btn btn-primary">Save</button>
 }
 ````
