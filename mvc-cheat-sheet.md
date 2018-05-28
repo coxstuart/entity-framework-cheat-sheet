@@ -4,10 +4,9 @@
 /* Using BeginForm wraps from and maps post to Save action on CustomersController*/
 @using (Html.BeginForm("Save", "Customers"))
 {
-   
-	@Html.HiddenFor(m => m.Customer.Id)
-	/* Pairs enclosed in form-group divs (for bootstrap stying)*/
-	/* Html helpers used to render controls w/ @class="form-control" for bootstrap styling */
+    @Html.HiddenFor(m => m.Customer.Id)
+    /* Pairs enclosed in form-group divs (for bootstrap stying)*/
+    /* Html helpers used to render controls w/ @class="form-control" for bootstrap styling */
     <div class="form-group">
         @Html.LabelFor(m => m.Customer.Name)
         @Html.TextBoxFor(m => m.Customer.Name, new { @class = "form-control" })
