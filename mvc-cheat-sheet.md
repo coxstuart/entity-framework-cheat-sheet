@@ -1,5 +1,5 @@
 # MVC5 Forms
-##Bootstrap Styling Form Sample
+## Bootstrap Styling Form Sample
 ````{
     /* Using BeginForm wraps from and maps post to Save action on CustomersController*/
 	@Html.HiddenFor(m => m.Customer.Id)
