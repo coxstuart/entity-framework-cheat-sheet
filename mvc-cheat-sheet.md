@@ -1,6 +1,6 @@
 # MVC5 Forms
 ## Bootstrap Styling Form Sample
-````
+````c#
 /* Using BeginForm wraps from and maps post to Save action on CustomersController*/
 @using (Html.BeginForm("Save", "Customers"))
 {
