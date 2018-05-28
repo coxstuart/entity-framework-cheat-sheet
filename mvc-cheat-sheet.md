@@ -29,7 +29,7 @@
     <button type="submit" class="btn btn-primary">Save</button>
 }
 ````
-## Saving Data - Edit and Post Actions
+## Sample Edit and Post Actions
 ````c#
 public ActionResult Edit(int id)
 {
